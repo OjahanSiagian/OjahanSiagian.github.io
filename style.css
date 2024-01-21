@@ -1,8 +1,23 @@
-body{
-    background-color: aqua;
+.body{
+    background-color:rebeccapurple ;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #91f27b;
+}
+
+header {
+    background-color: #1b77e1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 .photo-card {
-    border: 1px solid #df6565;
+    border: 1px solid #bc3030;
     margin: 10px;
     padding: 10px;
     width: 200px;
@@ -12,90 +27,40 @@ body{
     width: 100%;
 }
 
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.header {
+header image {
     background-color: #333;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-.section {
+section  {
     padding: 20px;
 }
 
-.footer {
+section img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+
+footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    clear: both;
 }
 
-.header {
-    background-color: #f29494;
-    color: rgb(24, 21, 21);
-    padding: 10px;
+section p{
+    bottom: 0,2;
+    background-color: antiquewhite;
+    
+}
+section q{
+    bottom: 0,8;
+    background-color: rgb(229, 85, 24);
     text-align: center;
-}
-
-.section {
-    padding: 20px;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.section {
-    padding: 20px;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-.header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.section {
-    padding: 20px;
-}
-
-.section a {
-    display: block;
-    margin: 5px 0;
-    text-decoration: none;
-    color: blue;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
 }
